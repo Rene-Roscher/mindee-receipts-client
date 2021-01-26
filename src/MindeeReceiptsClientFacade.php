@@ -6,7 +6,7 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \RServices\MindeeReceiptsClient\MindeeReceiptsClient predict($contents);
+ * @method static \RServices\MindeeReceiptsClient predict($contents);
  * @method static string getPredictedCategory();
  * @method static float getPredictedPrice();
  * @method static string getProbability();
