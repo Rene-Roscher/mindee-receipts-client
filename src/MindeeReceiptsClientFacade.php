@@ -6,13 +6,13 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method \RServices\MindeeReceiptsClient\MindeeReceiptsClient predict($contents);
- * @method string getPredictedCategory();
- * @method float getPredictedPrice();
- * @method string getProbability();
- * @method int getProcessingTime();
- * @method array|mixed getResponse();
- * @method Client getClient();
+ * @method static \RServices\MindeeReceiptsClient\MindeeReceiptsClient predict($contents);
+ * @method static string getPredictedCategory();
+ * @method static float getPredictedPrice();
+ * @method static string getProbability();
+ * @method static int getProcessingTime();
+ * @method static array|mixed getResponse();
+ * @method static Client getClient();
  * @see \RServices\MindeeReceiptsClient\MindeeReceiptsClient
  */
 class MindeeReceiptsClientFacade extends Facade
