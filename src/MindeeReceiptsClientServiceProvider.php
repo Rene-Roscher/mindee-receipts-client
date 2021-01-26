@@ -1,6 +1,6 @@
 <?php
 
-namespace RServices\MindeeReceiptsClient;
+namespace RServices;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RServices\\MindeeReceiptsClient\\": "src"
+            "RServices\\": "src"
         }
     },
     "scripts": {
@@ -38,10 +38,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RServices\\MindeeReceiptsClient\\MindeeReceiptsClientServiceProvider"
+                "RServices\\MindeeReceiptsClientServiceProvider"
             ],
             "aliases": {
-                "MindeeReceiptsClient": "RServices\\MindeeReceiptsClient\\MindeeReceiptsClientFacade"
+                "MindeeReceiptsClient": "RServices\\MindeeReceiptsClientFacade"
             }
         }
     },
