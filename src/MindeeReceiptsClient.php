@@ -40,8 +40,6 @@ class MindeeReceiptsClient
 
     function handlePredication()
     {
-        if (is_null($this->response) || !is_array($this->response) || !is_object($this->response))
-            throw new \LogicException('there was no response to process');
         if (array_key_exists('predictions', $this->response) && count($predictions = $this->response['predictions']) > 0) {
             $obj = $predictions[0];
             $this->predictedPrice = $obj['total_incl']['value'];
